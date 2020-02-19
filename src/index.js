@@ -16,7 +16,7 @@ app.get('/hello', (req, res) => {
     res.end("hello");
 });
 
-app.listen(3333, function(req, res) {
+app.listen(process.env.PORT || 3333, function(req, res) {
     console.log("server started");
 });
 
