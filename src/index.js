@@ -12,7 +12,7 @@ import BuyApplicationController from './controllers/BuyApplicationController';
 const BuyApplication = new BuyApplicationController();
 
 const app = express();
-mongoose.connect('mongodb://heroku_z4dxgz65:Pract2272@ds213053.mlab.com:13053/heroku_z4dxgz65');
+mongoose.connect('mongodb://<heroku_z4dxgz65>:<Practika2272>@ds213053.mlab.com:13053/heroku_z4dxgz65');
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from
