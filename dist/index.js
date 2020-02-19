@@ -33,7 +33,7 @@ var Offer = new _OfferController2.default();
 var BuyApplication = new _BuyApplicationController2.default();
 
 var app = (0, _express2.default)();
-_mongoose2.default.connect('mongodb://<dbuser>:<dbpassword>@ds213053.mlab.com:13053/heroku_z4dxgz65');
+_mongoose2.default.connect('mongodb://<heroku_z4dxgz65>:<Practika2272>@ds213053.mlab.com:13053/heroku_z4dxgz65');
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from
