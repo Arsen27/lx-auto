@@ -23,6 +23,10 @@ app.use(function (req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('/hello', (req, res) => {
+    res.end("hello");
+});
+
 app.get('/cars', Car.index);
 app.get('/cars/:id', Car.read);
 app.post('/cars', Car.create);
