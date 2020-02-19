@@ -12,25 +12,16 @@ var _bodyParser = require('body-parser');
 
 var _bodyParser2 = _interopRequireDefault(_bodyParser);
 
-var _CarController = require('./controllers/CarController');
-
-var _CarController2 = _interopRequireDefault(_CarController);
-
-var _OfferController = require('./controllers/OfferController');
-
-var _OfferController2 = _interopRequireDefault(_OfferController);
-
-var _BuyApplicationController = require('./controllers/BuyApplicationController');
-
-var _BuyApplicationController2 = _interopRequireDefault(_BuyApplicationController);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Car = new _CarController2.default();
+// import CarController from './controllers/CarController';
+// const Car = new CarController();
 
-var Offer = new _OfferController2.default();
+// import OfferController from './controllers/OfferController';
+// const Offer = new OfferController();
 
-var BuyApplication = new _BuyApplicationController2.default();
+// import BuyApplicationController from './controllers/BuyApplicationController';
+// const BuyApplication = new BuyApplicationController();
 
 var app = (0, _express2.default)();
 _mongoose2.default.connect('mongodb://localhost/lxauto');
@@ -44,23 +35,27 @@ app.use(function (req, res, next) {
 app.use(_bodyParser2.default.urlencoded({ extended: true }));
 app.use(_bodyParser2.default.json());
 
-app.get('/cars', Car.index);
-app.get('/cars/:id', Car.read);
-app.post('/cars', Car.create);
-app.delete('/cars/:id', Car.delete);
-app.put('/cars/:id', Car.update);
+app.get('/hello', function (req, res) {
+    res.end("hello");
+});
 
-app.get('/offers', Offer.index);
-app.get('/offers/:id', Offer.read);
-app.post('/offers', Offer.create);
-app.delete('/offers/:id', Offer.delete);
-app.put('/offers/:id', Offer.update);
+// app.get('/cars', Car.index);
+// app.get('/cars/:id', Car.read);
+// app.post('/cars', Car.create);
+// app.delete('/cars/:id', Car.delete);
+// app.put('/cars/:id', Car.update);
 
-app.get('/buy-app', BuyApplication.index);
-app.get('/buy-app', BuyApplication.read);
-app.post('/buy-app', BuyApplication.create);
-app.delete('/buy-app/:id', BuyApplication.delete);
-app.put('/buy-app/:id', BuyApplication.update);
+// app.get('/offers', Offer.index);
+// app.get('/offers/:id', Offer.read);
+// app.post('/offers', Offer.create);
+// app.delete('/offers/:id', Offer.delete);
+// app.put('/offers/:id', Offer.update);
+
+// app.get('/buy-app', BuyApplication.index);
+// app.get('/buy-app', BuyApplication.read);
+// app.post('/buy-app', BuyApplication.create);
+// app.delete('/buy-app/:id', BuyApplication.delete);
+// app.put('/buy-app/:id', BuyApplication.update);
 
 app.listen(3333, function (req, res) {
     console.log("server started");
