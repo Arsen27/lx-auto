@@ -15,7 +15,7 @@ const app = express();
 mongoose.connect('mongodb://Arsik:pr2272@ds213053.mlab.com:13053/heroku_z4dxgz65');
 
 app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Origin", "http://practyka.zzz.com.ua/"); // update to match the domain you will make the request from
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
