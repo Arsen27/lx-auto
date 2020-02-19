@@ -24,7 +24,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // const BuyApplication = new BuyApplicationController();
 
 var app = (0, _express2.default)();
-_mongoose2.default.connect('mongodb://localhost/lxauto');
+// mongoose.connect('mongodb://localhost/lxauto');
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from
