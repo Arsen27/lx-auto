@@ -44,6 +44,13 @@ app.use(function (req, res, next) {
 app.use(_bodyParser2.default.urlencoded({ extended: true }));
 app.use(_bodyParser2.default.json());
 
+app.use(_express2.default.static(__dirname + '/build'));
+
+app.get('/', function (req, res) {
+    var model = { title: { main: "hello world!", subtitle: "subtitle" }, layout: false };
+    res.render('index.html', model);
+});
+
 app.get('/hello', function (req, res) {
     res.end("hello");
 });

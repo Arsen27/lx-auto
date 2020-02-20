@@ -1,0 +1,82 @@
+[
+    {
+      "mark": "audi",
+      "model": "a7 sportback",
+      "year": 2019,
+      "colors": ["ffffff", "000000", "941c1c", "1A1D2D", "5E8887", "21282e"],
+      "params": {
+        "fuelCons": "7.2 | 9.3 | 5.9",
+        "engine": "Бензин, 3.0, 340 к.с.",
+        "acceleration": 530,
+        "wheelDrive": "Повний",
+        "gearbox": "Робот",
+        "height": 1422,
+        "width": 1908,
+        "length": 4969
+      }
+    },
+    {
+      "mark": "audi",
+      "model": "a5 sportback",
+      "year": 2019,
+      "colors": ["ffffff", "000000", "1A1D2D", "21282e"],
+      "params": {
+        "fuelCons": "7.0 | 8.3 | 5.1",
+        "engine": "Бензин, 2.0, 190 к.с.",
+        "acceleration": 750,
+        "wheelDrive": "Передній",
+        "gearbox": "Автомат",
+        "height": 1386,
+        "width": 1843,
+        "length": 4733
+      }
+    },
+    {
+      "mark": "mercedes-benz",
+      "model": "gle 300d",
+      "year": 2020,
+      "colors": ["ffffff", "000000", "1A1D2D"],
+      "params": {
+        "fuelCons": "6.4 | 7.3 | 5.9",
+        "engine": "Дизель, 2.0, 245 к.с.",
+        "acceleration": 720,
+        "wheelDrive": "Повний",
+        "gearbox": "Автомат",
+        "height": 1772,
+        "width": 1947,
+        "length": 4924 
+      }
+    },
+    {
+      "mark": "porsche",
+      "model": "cayenne",
+      "year": 2019,
+      "colors": ["ffffff", "000000", "1A1D2D"],
+      "params": {
+        "fuelCons": "9.4 | 11.8 | 8.4",
+        "engine": "Бензин, 2.9, 440 к.с.",
+        "acceleration": 520,
+        "wheelDrive": "Повний",
+        "gearbox": "Автомат",
+        "height": 1696,
+        "width": 1983,
+        "length": 4918 
+      }
+    },
+      {
+        "mark": "bmw",
+        "model": "520i",
+        "year": 2019,
+        "colors": ["ffffff", "000000", "1A1D2D", "5E8887"],
+        "params": {
+          "fuelCons": "5.4 | 6.9 | 4.6",
+          "engine": "Бензин, 2.0, 184 к.с.",
+          "acceleration": 780,
+          "wheelDrive": "Задній",
+          "gearbox": "Автомат",
+          "height": 1479,
+          "width": 1868,
+          "length": 4935 
+        }
+      }
+]

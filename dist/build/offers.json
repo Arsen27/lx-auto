@@ -1,0 +1,259 @@
+[   
+    // Audi A5
+    {
+        "carId": "5e4d390e2928dd0e389a602b",
+	    "colors": ["#ffffff", "000000", "1A1D2D"],
+        "options": [
+            "first option",
+            "second option",
+            "third option"
+        ],
+        "price": 40000,
+        "creditPrice": 520,
+        "location": "Київ"
+    },
+    {
+        "carId": "5e4d390e2928dd0e389a602b",
+	    "colors": ["#ffffff", "21282e"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "price": 45000,
+        "creditPrice": 600,
+        "location": "Львів"
+    },
+    {
+        "carId": "5e4d390e2928dd0e389a602b",
+	    "colors": ["ffffff", "000000", "1A1D2D", "21282e"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "price": 47000,
+        "creditPrice": 800,
+        "location": "Харків"
+    },
+    {
+        "carId": "5e4d390e2928dd0e389a602b",
+	    "colors": ["ffffff"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4"
+        ],
+        "price": 42000,
+        "creditPrice": 800,
+        "location": "Одеса"
+    },
+    // Audi A7
+    {
+        "carId": "5e4d38992928dd0e389a602a",
+	    "colors": ["ffffff", "000000", "941c1c", "1A1D2D", "5E8887", "21282e"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "price": 81000,
+        "creditPrice": 1500,
+        "location": "Київ"
+    },
+    {
+        "carId": "5e4d38992928dd0e389a602a",
+	    "colors": ["ffffff", "000000", "941c1c", "1A1D2D"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6"
+        ],
+        "price": 75000,
+        "creditPrice": 1200,
+        "location": "Львів"
+    },
+    {
+        "carId": "5e4d38992928dd0e389a602a",
+	    "colors": ["ffffff", "000000", "21282e"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4"
+        ],
+        "price": 71000,
+        "creditPrice": 1100,
+        "location": "Дніпро"
+    },
+    // Mercedes GLE 
+    {
+        "carId": "5e4d392d2928dd0e389a602c",
+	    "colors": ["ffffff", "000000", "1A1D2D"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "price": 89000,
+        "creditPrice": 1500,
+        "location": "Київ"
+    },
+    {
+        "carId": "5e4d392d2928dd0e389a602c",
+	    "colors": ["000000"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "price": 81000,
+        "creditPrice": 1200,
+        "location": "Одеса"
+    }
+    // Porsche
+    {
+        "carId": "5e4d39412928dd0e389a602d",
+	    "colors": ["ffffff", "000000", "1A1D2D"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "price": 85000,
+        "creditPrice": 1100,
+        "location": "Одеса"
+    },
+    {
+        "carId": "5e4d39412928dd0e389a602d",
+	    "colors": ["ffffff", "000000", "1A1D2D"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "price": 91000,
+        "creditPrice": 1100,
+        "location": "Київ"
+    },
+    {
+        "carId": "5e4d39412928dd0e389a602d",
+	    "colors": ["ffffff"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6"
+        ],
+        "price": 79000,
+        "creditPrice": 990,
+        "location": "Київ"
+    },
+    // BMW
+    {
+        "carId": "5e4d39692928dd0e389a602e",
+	    "colors": ["ffffff", "000000", "1A1D2D", "5E8887"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "price": 59000,
+        "creditPrice": 800,
+        "location": "Київ"
+    },
+    {
+        "carId": "5e4d39692928dd0e389a602e",
+	    "colors": ["ffffff", "000000"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "price": 62000,
+        "creditPrice": 900,
+        "location": "Київ"
+    },
+    {
+        "carId": "5e4d39692928dd0e389a602e",
+	    "colors": ["ffffff", "5E8887"],
+        "options": [
+            "first option",
+            "second option",
+            "third option",
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "price": 61000,
+        "creditPrice": 900,
+        "location": "Львів"
+    }
+]

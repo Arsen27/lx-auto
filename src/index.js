@@ -23,6 +23,13 @@ app.use(function (req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.use(express.static(__dirname + '/build'))
+
+app.get('/', (req, res) => {
+    var model = { title : { main: "hello world!", subtitle: "subtitle" }, layout: false };
+    res.render('index.html', model);  
+});
+
 app.get('/hello', (req, res) => {
     res.end("hello");
 });
