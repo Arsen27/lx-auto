@@ -52,7 +52,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/hello', function (req, res) {
-    res.end("hello");
+    res.end("hello world");
 });
 
 app.get('/cars', Car.index);

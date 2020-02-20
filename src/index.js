@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-    res.end("hello");
+    res.end("hello world");
 });
 
 app.get('/cars', Car.index);
