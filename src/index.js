@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/build'))
 
 app.get('/', (req, res) => {
-    var model = { title : { main: "hello world!", subtitle: "subtitle" }, layout: false };
+    var model = { title : { main: "title", subtitle: "subtitle" }, layout: false };
     res.render('index.html', model);  
 });
 
