@@ -12,7 +12,7 @@ import BuyApplicationController from './controllers/BuyApplicationController';
 const BuyApplication = new BuyApplicationController();
 
 const app = express();
-mongoose.connect('mongodb://Arsik:pr2272@ds213053.mlab.com:13053/heroku_z4dxgz65');
+mongoose.connect('');
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://practyka.zzz.com.ua/"); // update to match the domain you will make the request from
